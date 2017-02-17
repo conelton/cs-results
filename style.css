@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-y: scroll;
+}
+
+header {
+  padding: 16px;
+  background-color: #004169;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.content {
+  margin-top: 32px;
+}
+
+.instructions {
+  margin: 32px 16px;
+  text-align: center;
+}
+
+.instructions p {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.course-form-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.course-form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-form .course-option input {
+  display: none;
+}
+
+.course-form .course-option label {
+  display: block;
+  min-width: 200px;
+  margin: 8px;
+  padding: 16px;
+  border: 1px solid #A7A7A7;
+  text-align: center;
+  cursor: pointer;
+}
+
+.course-form .course-option label:hover {
+  border-color: #D70143;
+}
+
+.course-form .course-option input:checked + label {
+  border-color: #D70143;
+  outline: 3px solid #D70143;
+}
+
+.module-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 32px 16px;
+}
+
+.module-form table {
+  border-collapse: collapse;
+}
+
+.module-form table th,
+.module-form table td {
+  padding: 16px;
+}
+
+.module-form table .align-right {
+  text-align: right;
+}
+
+.module-form table .header-row th {
+  text-align: center;
+  font-weight: normal;
+  background-color: #D70143;
+  color: white;
+}
+
+.module-form table .divider-row th {
+  font-weight: normal;
+  background-color: #DFDFDF;
+  color: black;
+}
+
+.mark-input {
+  padding: 2px;
+  border: 1px solid #AFAFAF;
+  border-radius: 2px;
+  font-family: monospace;
+}
+
+.mark-input.valid {
+  border-color: green;
+}
+
+.mark-input.invalid {
+  border-color: red;
+}
+
+.results {
+  margin: 32px 16px;
+  text-align: center;
+}
+
+.results h2 {
+  font-size: 200%;
+  font-weight: normal;
+  color: #D70143;
+}
+
+.results output {
+  font-weight: bold;
+}
+
+footer {
+  margin: 32px 0;
+  font-size: 80%;
+  text-align: center;
+  color: #3F3F3F;
+}
+
+footer a:link,
+footer a:visited {
+  color: inherit;
+}
