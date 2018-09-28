@@ -28,4 +28,4 @@ If you like.
 
 ## Licence
 
-MIT &copy; Jack Conway 2017
+MIT
